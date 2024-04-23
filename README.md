@@ -1,79 +1,55 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Currency Converter
 
-# Getting Started
+<img
+src="./Currency-Converter.jpeg"
+height=300
+/>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This is a simple currency converter that converts one currency to another. It uses the [Open ExchangeRate-API](https://open.er-api.com/v6/latest/INR) to get the exchange rates.
 
-## Step 1: Start the Metro Server
+## Technologies Used
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+1. React Native
 
-To start Metro, run the following command from the _root_ of your React Native project:
+2. Open ExchangeRate-API
+
+## How to use
+
+1. Clone the repository
 
 ```bash
-# using npm
+git clone https://github.com/Darkrider0007/CurrencyConverter.git
+```
+
+2.Run the following command to install the required packages
+
+```bash
+npm install
+```
+
+3.Start the AVD or connect your device to the system
+4.Run the following command to start the server
+
+```bash
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
-## Step 2: Start your Application
+5.Click a to install the app on the connected device or emulator
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+6.The app will be installed on the device and you can use it to convert the currency
 
-### For Android
+## Features
 
-```bash
-# using npm
-npm run android
+User can convert the Indian Rupee to any other currency (Which is given in the APP)
 
-# OR using Yarn
-yarn android
-```
+# Contribution
 
-### For iOS
+If you want to contribute to this project, you're always welcome! 
 
-```bash
-# using npm
-npm run ios
+1. Fork the project, clone it and make changes.
 
-# OR using Yarn
-yarn ios
-```
+2. Create a pull request with a proper description of the changes you made.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+3. I will review the changes and merge them if they seem fine to me.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+4. If you find any issues with the project, you can create an issue and I will try to solve it as soon as possible.
